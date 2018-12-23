@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.2)
 
 # Project name.
 # Check if there is an environment variable.
-if (NOT DEFINED TRAVIS_BUILD_NUMBER)
-  project(helloworld VERSION 0.0.2)
-else (NOT DEFINED TRAVIS_BUILD_NUMBER)
+#if (NOT DEFINED TRAVIS_BUILD_NUMBER)
+#  project(helloworld VERSION 0.0.2)
+#else (NOT DEFINED TRAVIS_BUILD_NUMBER)
   project(helloworld VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
-endif (NOT DEFINED TRAVIS_BUILD_NUMBER)
+#endif (NOT DEFINED TRAVIS_BUILD_NUMBER)
 
 # Search for the "boost" library to enable unit tests.
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
