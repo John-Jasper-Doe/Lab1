@@ -1,9 +1,11 @@
+#include "lib.h"
 #include <iostream>
 
-using namespace std;
 
-int main(int argc, char *argv[])
+int main(/*int argc, char *argv[]*/)
 {
-  cout << "Hello World!" << endl;
+  std::cout << "Hello, world!" << std::endl;
+
+  std::cout << "Version: " << version() << std::endl;
   return 0;
 }
