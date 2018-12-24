@@ -1,4 +1,4 @@
-#include "lib.h"
+//#include "lib.h"
 #include <iostream>
 
 
@@ -6,6 +6,6 @@ int main(/*int argc, char *argv[]*/)
 {
   std::cout << "Hello, world!" << std::endl;
 
-  std::cout << "Version: " << version() << std::endl;
+  //std::cout << "Version: " << version() << std::endl;
   return 0;
 }
