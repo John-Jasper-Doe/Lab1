@@ -11,9 +11,7 @@
 #include "lib.h"
 #include "version.h"
 
-std::string version()
+unsigned version()
 {
-    return std::to_string(PROJECT_VERSION_MAJOR) + "." +
-           std::to_string(PROJECT_VERSION_MINOR) + "." +
-           std::to_string(PROJECT_VERSION_PATCH);
+    return PROJECT_VERSION_PATCH;
 }

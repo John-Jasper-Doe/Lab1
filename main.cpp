@@ -2,10 +2,10 @@
 #include <iostream>
 
 
-int main(/*int argc, char *argv[]*/)
+int main()
 {
-  std::cout << "Hello, world!" << std::endl;
+  std::cout << "build: " << version() << std::endl;
+  std::cout << "Hello, World!" << std::endl;
 
-  std::cout << "Version: " << version() << std::endl;
   return 0;
 }

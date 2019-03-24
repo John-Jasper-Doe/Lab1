@@ -10,8 +10,6 @@
 #ifndef LIB_H_
 #define LIB_H_
 
-#include <string>
-
-std::string version();
+unsigned version();
 
 #endif /* LIB_H_ */
