@@ -1,2 +1,2 @@
 # Lab_1
-Lab 1, Developer C ++ Course
+Lab 1, Developer C++ Course
